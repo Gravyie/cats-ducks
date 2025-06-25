@@ -150,7 +150,7 @@ export default function App() {
       </div>
 
       <div 
-        className="absolute left-[47%] top-[20%]"
+        className="absolute left-[47%] top-[18%]"
         onClick={() =>
           setBubble({
             message: "i knew it since forever!",
@@ -162,7 +162,7 @@ export default function App() {
       </div>
 
       <div 
-        className="absolute left-[27%] top-[29%]"
+        className="absolute left-[28%] top-[27%]"
         onClick={() =>
           setBubble({
             message: "stupid hooman!",
