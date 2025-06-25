@@ -9,7 +9,7 @@ import AnimatedElelf from "./components/AnimatedElelf";
 import AnimatedFox from "./components/AnimatedFox";
 import AnimatedHusky from "./components/AnimatedHusky";
 import AnimatedPengu from "./components/AnimatedPengu";
-
+import Envelope from "./assets/envelope.png"
 import farmBg from "./assets/farm.png";
 import PixelSpeechBubble from "./components/PixelSpeechBubble";
 
@@ -217,7 +217,7 @@ export default function App() {
           onClick={() => setShowQuestion(true)}
         >
           <img
-            src="/src/assets/envelope.png"
+            src={Envelope}
             alt="Envelope"
             className="w-16 h-16 hover:scale-110 transition-transform  glow-envelope"
           />
